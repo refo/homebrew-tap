@@ -1,26 +1,26 @@
 class Zipstream < Formula
   desc "Download and extract ZIP files in a single streaming pass"
   homepage "https://github.com/refo/zipstream"
-  version "0.1.1"
+  version "0.2.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/refo/zipstream/releases/download/v0.1.1/zipstream-v0.1.1-aarch64-macos.tar.gz"
-      sha256 "a39d2390b5467a359fb64b7c60079527da315589b857701a9fc5bd09f475cd36"
+      url "https://github.com/refo/zipstream/releases/download/v0.2.0/zipstream-v0.2.0-aarch64-macos.tar.gz"
+      sha256 "6878be025467a3fafb2b62ddf602b4559d7bfad8ea4dbbee0931b5f38cbd2dc5"
     else
-      url "https://github.com/refo/zipstream/releases/download/v0.1.1/zipstream-v0.1.1-x86_64-macos.tar.gz"
-      sha256 "9ea73fe1050eff1785bd92ed033b0261d4c28ebc1705889addead332e7651734"
+      url "https://github.com/refo/zipstream/releases/download/v0.2.0/zipstream-v0.2.0-x86_64-macos.tar.gz"
+      sha256 "20cc51cbd5ad2384024abfd6f1850b79c2f668a4d5ce3ffb884bb8538d345cb4"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/refo/zipstream/releases/download/v0.1.1/zipstream-v0.1.1-aarch64-linux.tar.gz"
-      sha256 "bd74d65530cce37c33528e74c154622b640d2f1a1878a11b040d3b9896585c22"
+      url "https://github.com/refo/zipstream/releases/download/v0.2.0/zipstream-v0.2.0-aarch64-linux.tar.gz"
+      sha256 "b81305293d7aee30c2359ff151435e376ec30b030a2dd865bd7e3f56679b2517"
     else
-      url "https://github.com/refo/zipstream/releases/download/v0.1.1/zipstream-v0.1.1-x86_64-linux.tar.gz"
-      sha256 "8ff162fc41891125f3ef168fd514ce773b440314aba738a25fdac6df1bb8baa9"
+      url "https://github.com/refo/zipstream/releases/download/v0.2.0/zipstream-v0.2.0-x86_64-linux.tar.gz"
+      sha256 "970438a573057a8ddfe51c56e3835c5eb9e74642f043793801dbe2e839652ce4"
     end
   end
 
